@@ -1,0 +1,29 @@
+{
+  "name": "spark-cli",
+  "version": "1.0.0",
+  "description": "Spark CLI",
+  "main": "spark/spark.cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings spark/spark.cli.js",
+    "dev": "node --no-warnings --watch spark/spark.cli.js",
+    "cli": "node --no-warnings spark/spark.cli.js"
+  },
+  "dependencies": {
+    "@buildonspark/issuer-sdk": "^0.0.91",
+    "@buildonspark/spark-sdk": "^0.2.12",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "spark",
+    "cli",
+    "wallet",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c"
+}
